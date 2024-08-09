@@ -1,0 +1,706 @@
+{
+    "editorName": "Solver",
+    "variables": {},
+    "nodes": [
+        {
+            "id": "d544750a-72cb-4be0-8f9c-80d352c2ebf2",
+            "type": "xml.XML",
+            "params": {
+                "xmlConfig": {
+                    "complex": {
+                        "name": "Solvers",
+                        "attributes": [],
+                        "children": [
+                            {
+                                "type": "AcousticElasticSEM"
+                            },
+                            {
+                                "type": "AcousticFirstOrderSEM"
+                            },
+                            {
+                                "type": "AcousticSEM"
+                            },
+                            {
+                                "type": "AcousticVTISEM"
+                            },
+                            {
+                                "type": "CompositionalMultiphaseFVM"
+                            },
+                            {
+                                "type": "CompositionalMultiphaseHybridFVM"
+                            },
+                            {
+                                "type": "CompositionalMultiphaseReservoir"
+                            },
+                            {
+                                "type": "CompositionalMultiphaseReservoirPoromechanics"
+                            },
+                            {
+                                "type": "CompositionalMultiphaseWell"
+                            },
+                            {
+                                "type": "ElasticFirstOrderSEM"
+                            },
+                            {
+                                "type": "ElasticSEM"
+                            },
+                            {
+                                "type": "EmbeddedSurfaceGenerator"
+                            },
+                            {
+                                "type": "FlowProppantTransport"
+                            },
+                            {
+                                "type": "Hydrofracture"
+                            },
+                            {
+                                "type": "LaplaceFEM"
+                            },
+                            {
+                                "type": "MultiphasePoromechanics"
+                            },
+                            {
+                                "type": "MultiphasePoromechanicsReservoir"
+                            },
+                            {
+                                "type": "PhaseFieldDamageFEM"
+                            },
+                            {
+                                "type": "PhaseFieldFracture"
+                            },
+                            {
+                                "type": "ProppantTransport"
+                            },
+                            {
+                                "type": "ReactiveCompositionalMultiphaseOBL"
+                            },
+                            {
+                                "type": "SeismicityRate"
+                            },
+                            {
+                                "type": "SinglePhaseFVM"
+                            },
+                            {
+                                "type": "SinglePhaseHybridFVM"
+                            },
+                            {
+                                "type": "SinglePhasePoromechanics"
+                            },
+                            {
+                                "type": "SinglePhasePoromechanicsConformingFractures"
+                            },
+                            {
+                                "type": "SinglePhasePoromechanicsEmbeddedFractures"
+                            },
+                            {
+                                "type": "SinglePhasePoromechanicsReservoir"
+                            },
+                            {
+                                "type": "SinglePhaseProppantFVM"
+                            },
+                            {
+                                "type": "SinglePhaseReservoir"
+                            },
+                            {
+                                "type": "SinglePhaseReservoirPoromechanics"
+                            },
+                            {
+                                "type": "SinglePhaseWell"
+                            },
+                            {
+                                "type": "SolidMechanicsEmbeddedFractures"
+                            },
+                            {
+                                "type": "SolidMechanicsLagrangeContact"
+                            },
+                            {
+                                "type": "SolidMechanicsLagrangianSSLE"
+                            },
+                            {
+                                "type": "SolidMechanics_LagrangianFEM"
+                            },
+                            {
+                                "type": "SolidMechanics_MPM"
+                            },
+                            {
+                                "type": "SurfaceGenerator"
+                            }
+                        ]
+                    },
+                    "priorities": {
+                        "Problem": {
+                            "Solvers": 10,
+                            "Mesh": 9,
+                            "Geometry": 8,
+                            "Events": 7,
+                            "ElementRegions": 6,
+                            "NumericalMethods": 5,
+                            "Constitutive": 4,
+                            "FieldSpecifications": 3,
+                            "Functions": 2,
+                            "Outputs": 1
+                        }
+                    },
+                    "outLabel": "Solvers",
+                    "xmlTag": "Solvers",
+                    "childTypes": [
+                        "AcousticElasticSEM",
+                        "AcousticFirstOrderSEM",
+                        "AcousticSEM",
+                        "AcousticVTISEM",
+                        "CompositionalMultiphaseFVM",
+                        "CompositionalMultiphaseHybridFVM",
+                        "CompositionalMultiphaseReservoir",
+                        "CompositionalMultiphaseReservoirPoromechanics",
+                        "CompositionalMultiphaseWell",
+                        "ElasticFirstOrderSEM",
+                        "ElasticSEM",
+                        "EmbeddedSurfaceGenerator",
+                        "FlowProppantTransport",
+                        "Hydrofracture",
+                        "LaplaceFEM",
+                        "MultiphasePoromechanics",
+                        "MultiphasePoromechanicsReservoir",
+                        "PhaseFieldDamageFEM",
+                        "PhaseFieldFracture",
+                        "ProppantTransport",
+                        "ReactiveCompositionalMultiphaseOBL",
+                        "SeismicityRate",
+                        "SinglePhaseFVM",
+                        "SinglePhaseHybridFVM",
+                        "SinglePhasePoromechanics",
+                        "SinglePhasePoromechanicsConformingFractures",
+                        "SinglePhasePoromechanicsEmbeddedFractures",
+                        "SinglePhasePoromechanicsReservoir",
+                        "SinglePhaseProppantFVM",
+                        "SinglePhaseReservoir",
+                        "SinglePhaseReservoirPoromechanics",
+                        "SinglePhaseWell",
+                        "SolidMechanicsEmbeddedFractures",
+                        "SolidMechanicsLagrangeContact",
+                        "SolidMechanicsLagrangianSSLE",
+                        "SolidMechanics_LagrangianFEM",
+                        "SolidMechanics_MPM",
+                        "SurfaceGenerator"
+                    ],
+                    "childProps": [
+                        {
+                            "type": "AcousticElasticSEM"
+                        },
+                        {
+                            "type": "AcousticFirstOrderSEM"
+                        },
+                        {
+                            "type": "AcousticSEM"
+                        },
+                        {
+                            "type": "AcousticVTISEM"
+                        },
+                        {
+                            "type": "CompositionalMultiphaseFVM"
+                        },
+                        {
+                            "type": "CompositionalMultiphaseHybridFVM"
+                        },
+                        {
+                            "type": "CompositionalMultiphaseReservoir"
+                        },
+                        {
+                            "type": "CompositionalMultiphaseReservoirPoromechanics"
+                        },
+                        {
+                            "type": "CompositionalMultiphaseWell"
+                        },
+                        {
+                            "type": "ElasticFirstOrderSEM"
+                        },
+                        {
+                            "type": "ElasticSEM"
+                        },
+                        {
+                            "type": "EmbeddedSurfaceGenerator"
+                        },
+                        {
+                            "type": "FlowProppantTransport"
+                        },
+                        {
+                            "type": "Hydrofracture"
+                        },
+                        {
+                            "type": "LaplaceFEM"
+                        },
+                        {
+                            "type": "MultiphasePoromechanics"
+                        },
+                        {
+                            "type": "MultiphasePoromechanicsReservoir"
+                        },
+                        {
+                            "type": "PhaseFieldDamageFEM"
+                        },
+                        {
+                            "type": "PhaseFieldFracture"
+                        },
+                        {
+                            "type": "ProppantTransport"
+                        },
+                        {
+                            "type": "ReactiveCompositionalMultiphaseOBL"
+                        },
+                        {
+                            "type": "SeismicityRate"
+                        },
+                        {
+                            "type": "SinglePhaseFVM"
+                        },
+                        {
+                            "type": "SinglePhaseHybridFVM"
+                        },
+                        {
+                            "type": "SinglePhasePoromechanics"
+                        },
+                        {
+                            "type": "SinglePhasePoromechanicsConformingFractures"
+                        },
+                        {
+                            "type": "SinglePhasePoromechanicsEmbeddedFractures"
+                        },
+                        {
+                            "type": "SinglePhasePoromechanicsReservoir"
+                        },
+                        {
+                            "type": "SinglePhaseProppantFVM"
+                        },
+                        {
+                            "type": "SinglePhaseReservoir"
+                        },
+                        {
+                            "type": "SinglePhaseReservoirPoromechanics"
+                        },
+                        {
+                            "type": "SinglePhaseWell"
+                        },
+                        {
+                            "type": "SolidMechanicsEmbeddedFractures"
+                        },
+                        {
+                            "type": "SolidMechanicsLagrangeContact"
+                        },
+                        {
+                            "type": "SolidMechanicsLagrangianSSLE"
+                        },
+                        {
+                            "type": "SolidMechanics_LagrangianFEM"
+                        },
+                        {
+                            "type": "SolidMechanics_MPM"
+                        },
+                        {
+                            "type": "SurfaceGenerator"
+                        }
+                    ],
+                    "xmlProperties": [
+                        {
+                            "name": "gravityVector",
+                            "type": "R1Tensor",
+                            "required": false
+                        }
+                    ]
+                },
+                "initialValues": {}
+            },
+            "state": {
+                "usedOptionalAttrs": []
+            },
+            "position": {
+                "x": -319.5,
+                "y": -265.5
+            },
+            "inputControlValues": {
+                "inputs": {},
+                "controls": {}
+            },
+            "selectedInputs": [],
+            "selectedOutputs": [
+                "value"
+            ]
+        },
+        {
+            "id": "46653a49-02c6-4177-aefb-033f870689c1",
+            "type": "xml.XML",
+            "params": {
+                "xmlConfig": {
+                    "complex": {
+                        "name": "AcousticSEM",
+                        "attributes": [],
+                        "children": [
+                            {
+                                "type": "LinearSolverParameters",
+                                "maxOccurs": 1
+                            },
+                            {
+                                "type": "NonlinearSolverParameters",
+                                "maxOccurs": 1
+                            }
+                        ]
+                    },
+                    "priorities": {
+                        "Problem": {
+                            "Solvers": 10,
+                            "Mesh": 9,
+                            "Geometry": 8,
+                            "Events": 7,
+                            "ElementRegions": 6,
+                            "NumericalMethods": 5,
+                            "Constitutive": 4,
+                            "FieldSpecifications": 3,
+                            "Functions": 2,
+                            "Outputs": 1
+                        }
+                    },
+                    "outLabel": "Solver",
+                    "xmlTag": "AcousticSEM",
+                    "childTypes": [
+                        "LinearSolverParameters",
+                        "NonlinearSolverParameters"
+                    ],
+                    "childProps": [
+                        {
+                            "type": "LinearSolverParameters",
+                            "maxOccurs": 1
+                        },
+                        {
+                            "type": "NonlinearSolverParameters",
+                            "maxOccurs": 1
+                        }
+                    ],
+                    "xmlProperties": [
+                        {
+                            "name": "attenuationType",
+                            "type": "geos_WaveSolverUtils_AttenuationType",
+                            "required": false
+                        },
+                        {
+                            "name": "cflFactor",
+                            "type": "real64",
+                            "required": false
+                        },
+                        {
+                            "name": "discretization",
+                            "type": "groupNameRef",
+                            "required": true
+                        },
+                        {
+                            "name": "dtSeismoTrace",
+                            "type": "real64",
+                            "required": false
+                        },
+                        {
+                            "name": "enableLifo",
+                            "type": "integer",
+                            "required": false
+                        },
+                        {
+                            "name": "forward",
+                            "type": "integer",
+                            "required": false
+                        },
+                        {
+                            "name": "initialDt",
+                            "type": "real64",
+                            "required": false
+                        },
+                        {
+                            "name": "lifoOnDevice",
+                            "type": "integer",
+                            "required": false
+                        },
+                        {
+                            "name": "lifoOnHost",
+                            "type": "integer",
+                            "required": false
+                        },
+                        {
+                            "name": "lifoSize",
+                            "type": "integer",
+                            "required": false
+                        },
+                        {
+                            "name": "linearDASGeometry",
+                            "type": "real64_array2d",
+                            "required": false
+                        },
+                        {
+                            "name": "linearDASSamples",
+                            "type": "integer",
+                            "required": false
+                        },
+                        {
+                            "name": "logLevel",
+                            "type": "integer",
+                            "required": false
+                        },
+                        {
+                            "name": "outputSeismoTrace",
+                            "type": "integer",
+                            "required": false
+                        },
+                        {
+                            "name": "receiverCoordinates",
+                            "type": "real64_array2d",
+                            "required": false
+                        },
+                        {
+                            "name": "rickerOrder",
+                            "type": "integer",
+                            "required": false
+                        },
+                        {
+                            "name": "saveFields",
+                            "type": "integer",
+                            "required": false
+                        },
+                        {
+                            "name": "shotIndex",
+                            "type": "integer",
+                            "required": false
+                        },
+                        {
+                            "name": "slsAnelasticityCoefficients",
+                            "type": "real32_array",
+                            "required": false
+                        },
+                        {
+                            "name": "slsReferenceAngularFrequencies",
+                            "type": "real32_array",
+                            "required": false
+                        },
+                        {
+                            "name": "sourceCoordinates",
+                            "type": "real64_array2d",
+                            "required": false
+                        },
+                        {
+                            "name": "targetRegions",
+                            "type": "groupNameRef_array",
+                            "required": true
+                        },
+                        {
+                            "name": "timeSourceDelay",
+                            "type": "real32",
+                            "required": false
+                        },
+                        {
+                            "name": "timeSourceFrequency",
+                            "type": "real32",
+                            "required": false
+                        },
+                        {
+                            "name": "useDAS",
+                            "type": "geos_WaveSolverUtils_DASType",
+                            "required": false
+                        },
+                        {
+                            "name": "name",
+                            "type": "groupName",
+                            "required": true
+                        }
+                    ]
+                },
+                "initialValues": {}
+            },
+            "state": {
+                "usedOptionalAttrs": [],
+                "name": "acousticSEM1"
+            },
+            "position": {
+                "x": -749.6450092406685,
+                "y": -264.6353419579573
+            },
+            "inputControlValues": {
+                "inputs": {
+                    "discretization": "",
+                    "targetRegions": ""
+                },
+                "controls": {}
+            },
+            "selectedInputs": [],
+            "selectedOutputs": []
+        },
+        {
+            "id": "4c4580e8-cde4-4d19-ab6c-70ea564e6e0c",
+            "type": "xml.XML",
+            "params": {
+                "xmlConfig": {
+                    "complex": {
+                        "name": "ElementRegions",
+                        "attributes": [],
+                        "children": [
+                            {
+                                "type": "CellElementRegion"
+                            },
+                            {
+                                "type": "SurfaceElementRegion"
+                            },
+                            {
+                                "type": "WellElementRegion"
+                            }
+                        ]
+                    },
+                    "priorities": {
+                        "Problem": {
+                            "Solvers": 10,
+                            "Mesh": 9,
+                            "Geometry": 8,
+                            "Events": 7,
+                            "ElementRegions": 6,
+                            "NumericalMethods": 5,
+                            "Constitutive": 4,
+                            "FieldSpecifications": 3,
+                            "Functions": 2,
+                            "Outputs": 1
+                        }
+                    },
+                    "outLabel": "ElementRegions",
+                    "xmlTag": "ElementRegions",
+                    "childTypes": [
+                        "CellElementRegion",
+                        "SurfaceElementRegion",
+                        "WellElementRegion"
+                    ],
+                    "childProps": [
+                        {
+                            "type": "CellElementRegion"
+                        },
+                        {
+                            "type": "SurfaceElementRegion"
+                        },
+                        {
+                            "type": "WellElementRegion"
+                        }
+                    ],
+                    "xmlProperties": []
+                },
+                "initialValues": {}
+            },
+            "state": {
+                "usedOptionalAttrs": []
+            },
+            "position": {
+                "x": -343.954759663971,
+                "y": 62.073716218320754
+            },
+            "inputControlValues": {
+                "inputs": {},
+                "controls": {}
+            },
+            "selectedInputs": [],
+            "selectedOutputs": [
+                "value"
+            ]
+        },
+        {
+            "id": "ba8638a1-4c4d-484d-9138-d8f47ac6b531",
+            "type": "xml.XML",
+            "params": {
+                "xmlConfig": {
+                    "complex": {
+                        "name": "CellElementRegion",
+                        "attributes": [],
+                        "children": []
+                    },
+                    "priorities": {
+                        "Problem": {
+                            "Solvers": 10,
+                            "Mesh": 9,
+                            "Geometry": 8,
+                            "Events": 7,
+                            "ElementRegions": 6,
+                            "NumericalMethods": 5,
+                            "Constitutive": 4,
+                            "FieldSpecifications": 3,
+                            "Functions": 2,
+                            "Outputs": 1
+                        }
+                    },
+                    "outLabel": "ElementRegion",
+                    "xmlTag": "CellElementRegion",
+                    "childTypes": [],
+                    "childProps": [],
+                    "xmlProperties": [
+                        {
+                            "name": "cellBlocks",
+                            "type": "groupNameRef_array",
+                            "required": true
+                        },
+                        {
+                            "name": "coarseningRatio",
+                            "type": "real64",
+                            "required": false
+                        },
+                        {
+                            "name": "materialList",
+                            "type": "groupNameRef_array",
+                            "required": true
+                        },
+                        {
+                            "name": "meshBody",
+                            "type": "groupNameRef",
+                            "required": false
+                        },
+                        {
+                            "name": "name",
+                            "type": "groupName",
+                            "required": true
+                        }
+                    ]
+                },
+                "initialValues": {}
+            },
+            "state": {
+                "usedOptionalAttrs": [],
+                "name": "cellElementRegion1"
+            },
+            "position": {
+                "x": -1229.7611092046598,
+                "y": 12.262049564320563
+            },
+            "inputControlValues": {
+                "inputs": {
+                    "cellBlocks": "",
+                    "materialList": ""
+                },
+                "controls": {}
+            },
+            "selectedInputs": [
+                "cellBlocks",
+                "materialList"
+            ],
+            "selectedOutputs": []
+        }
+    ],
+    "connections": [
+        {
+            "id": "d16506dacef3cf8a",
+            "source": "46653a49-02c6-4177-aefb-033f870689c1",
+            "target": "d544750a-72cb-4be0-8f9c-80d352c2ebf2",
+            "sourceOutput": "value",
+            "targetInput": "Solvers"
+        },
+        {
+            "id": "a6918b0ebf264919",
+            "source": "ba8638a1-4c4d-484d-9138-d8f47ac6b531",
+            "target": "4c4580e8-cde4-4d19-ab6c-70ea564e6e0c",
+            "sourceOutput": "value",
+            "targetInput": "Element Regions"
+        },
+        {
+            "id": "7f082017d0ae1671",
+            "source": "ba8638a1-4c4d-484d-9138-d8f47ac6b531",
+            "target": "46653a49-02c6-4177-aefb-033f870689c1",
+            "sourceOutput": "name",
+            "targetInput": "targetRegions"
+        }
+    ],
+    "comments": []
+}
